@@ -1,4 +1,4 @@
-<h3 align="center">Portfolio Flask project!</h3>
+<h1 align="center">Portfolio Flask project!</h1>
 <hr>
 
 <p align="center">
