@@ -1,5 +1,5 @@
-# Portfolio Flask project
-
+<h3 align="center">Portfolio Flask project!</h3>
+<hr>
 
 <p align="center">
   <a href="https://skillicons.dev">
