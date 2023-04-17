@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <!-- CSS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.png') }}">
+    <!-- FONT AWESOME CSS LIKN -->
+    <link rel="stylesheet" href="../static/fontawesome-free-6.2.1-web/css/all.css">
+</head>
+<body>
+
+
+    <!-- ................START NAV SECTION............ -->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Code with <span style="color:#FFDD00"">Me</span></a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="nav-active">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-button">
+                <button class="Open"><i class="fa fa-bars" aria-hidden="true" ></i></button>
+                <button class="Close"><i class="fa fa-close" aria-hidden="true" ></i></button>
+            </div>
+
+        </div>
+    </nav>
+    <!-- ................START NAV SECTION............ -->
+
+             <!-- About me Section -->
+             <section class="container about" id="about">
+                <!-- Image me Section -->
+                <div class="about_img">
+                    <img src="../static/images/photo.JPG" alt="">
+                </div>
+                <!-- Information Section -->
+                <div class="abount_info">
+                    <h2 class="heading">About <span style="color:#FFDD00">Me</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, itaque praesentium. Necessitatibus porro consequuntur quis aliquid,
+                        animi provident, nostrum iusto sed dignissimos ex consequatur accusamus dicta fuga praesentium saepe officia accusantium aperiam nulla
+                        voluptate blanditiis. Ipsum eligendi incidunt officiis odit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <!-- Tab Navigation -->
+                    <div class="tab_navigation">
+                        <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab_links" onclick="opentab('technologies')">Technologies</p>
+                        <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab_links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- Skills Navigation -->
+                    <div class="tab_content active_tab" id="skills">
+                        <ul>
+                            <li><span>Software engineering</span><br>Front-end - Unit Testing - Databases - Deployment</li>
+                            <li><span>Data Analysis</span><br>Data Cleaning & Processing - Data visualization - Time Series - Exloratory Analysis - Statistics</li>
+                            <li><span>Machine learning</span><br>Supervised & Unsupervised ML (Linear Regression, Decision Trees, Neural Networks) - Deep learning - Cross-validation</li>
+                        </ul>
+                    </div>
+                    <!-- Technologies Navigation -->
+                    <div class="tab_content" id="technologies">
+                        <ul>
+                            <li><span>Web Development & Databases</span><br>
+                                <object data="../static/images/svg/html-1.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/css-3.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/javascript-1.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/flask-logo (1).svg" width="70" height="40"> </object>
+                                <object data="../static/images/svg/fastapi-1.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/mongodb-icon-1.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/postgresql.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/aws-2.svg" width="40" height="40"> </object>
+                            </li>
+                            <li><span>Data Analysis & Data Science</span><br>
+                                <object data="../static/images/svg/python-5.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/numpy-1.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/pandas-svgrepo-com.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/seaborn-icon.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/plot_ly-icon.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/matplotlib-icon.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/spy.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/scipy.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/streamlit-logo-primary-colormark-darktext (1).svg" width="70" height="50"> </object>
+                            </li>
+                            <li><span>Machine Learning & Deep Learning</span><br>
+                                <object data="../static/images/svg/icons8-tensorflow.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/pytorch-svgrepo-com.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/keras-svgrepo-com.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/opencv-icon.svg" width="40" height="40"> </object>
+                                <object data="../static/images/svg/390px-Scikit_learn_logo_small.svg.png" width="60" height="30"> </object>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Experience Navigation -->
+                    <div class="tab_content" id="experience">
+                        <ul>
+                            <li><span>Feb 2023</span><br>Junior Data Scientist @UTokyo</li>
+                            <li><span>May 2021 - Dec 2022</span><br>Senior Tax Manager @BNP Paribas London</li>
+                            <li><span>Apr 2018 - May 2021</span><br>Tax Analyst @BNP Paribas Lisbon</li>
+                            <li><span>Apr 2017 - Apr 2018</span><br>Customer Service Manager @AirBnB</li>
+                        </ul>
+                    </div>
+                    <!-- Education Navigation -->
+                    <div class="tab_content" id="education">
+                        <ul>
+                            <li><span>Jun 2023</span><br>Data Science Bootcamp Le Wagon</li>
+                            <li><span>May 2023</span><br>Data Science Professional Certification</li>
+                            <li><span>Dec 2020</span><br>BSc in Social Science NOVA Lisbon University</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+
+<!-- Script Section -->
+
+<!-- Animation -->
+<!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+<!-- Typed JS -->
+<!-- <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script> -->
+
+<!-- Pure JS -->
+<script src="../static/script.js"></script>
+</body>
+</html>

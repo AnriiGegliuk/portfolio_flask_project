@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive personal portfolio website</title>
+    <!-- CSS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.png') }}">
+    <!-- FONT AWESOME CSS LIKN -->
+    <link rel="stylesheet" href="../static/fontawesome-free-6.2.1-web/css/all.css">
+
+</head>
+<body>
+
+
+    <!---------------------- NAVIGATION ---------------------->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Code with <span style="color:#FFDD00">Me</span></a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-button">
+                <button class="Open"><i class="fa fa-bars" aria-hidden="true" ></i></button>
+                <button class="Close"><i class="fa fa-close" aria-hidden="true" ></i></button>
+            </div>
+
+        </div>
+    </nav>
+    <!---------------------- NAVIGATION ---------------------->
+    <section class="container" id = "contact">
+      <div class="conformation_container_error">
+        <div>
+          <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_wvfo5uzg.json"  background="transparent"  speed="1"  style="width: 900px; height: 600px;"  loop autoplay></lottie-player>
+        </div>
+      </div>
+    </section>
+
+<!-- Animation -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<!-- Typed JS -->
+<script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+<!-- Pure JS -->
+<script src="../static/script.js"></script>
+</body>
+</html>

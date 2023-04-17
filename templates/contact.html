@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <!-- CSS LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.png') }}">
+    <!-- FONT AWESOME CSS LIKN -->
+    <link rel="stylesheet" href="../static/fontawesome-free-6.2.1-web/css/all.css">
+</head>
+
+<body>
+        <!-- ................START NAV SECTION............ -->
+        <nav>
+            <div class="container nav-container">
+                <a href="index.html" class="logo">Code with <span style="color:#FFDD00">Me</span></a>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="portfolio.html" >Portfolio</a></li>
+                    <li><a href="contact.html" class="nav-active">Contact</a></li>
+                </ul>
+
+                <div class="nav-button">
+                    <button class="Open"><i class="fa fa-bars" aria-hidden="true" ></i></button>
+                    <button class="Close"><i class="fa fa-close" aria-hidden="true" ></i></button>
+                </div>
+
+            </div>
+        </nav>
+        <!-- ................START NAV SECTION............ -->
+
+        <!-- Contact Section -->
+        <section class="container contact" id = "contact">
+          <div class="contact_text">
+            <h2 class="heading">Contact <span style="color:#FFDD00">Me</span></h2>
+            <h4>Let's work together</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum eum unde dicta?</p>
+            <div class="contact_list">
+              <li><a href=""></a><span style="color:#0057B7">Based in:</span> Tokyo</li>
+              <li><a href=""></a><span style="color:#FFDD00">Emai:</span> andrii.gegliuk@gmail</li>
+            </div>
+            <div class="contact_social_icons">
+              <a href="https://www.linkedin.com/in/andrii-gegliuk" target="_blank" ><i class=" fab fa-linkedin " aria-hidden="true"></i></a>
+              <a href="mailto:andrii.gegliuk@gmail.com" target="_blank" ><i class=" fa-regular fa-envelope" aria-hidden="true"></i></a>
+              <a href="https://github.com/AnriiGegliuk" target="_blank" ><i class=" fab fa-github " aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="contact_form">
+            <form action="submited_form" method="post">
+              <input name="user_name" type="text" placeholder="Your Name" required>
+              <input name="email" type="email" placeholder="Your Email Address" required>
+              <input name="subject" type="text" placeholder="Please specify Subject" required>
+              <textarea name="text" id="" cols="30" rows="10" placeholder="Type your message" required></textarea>
+              <input type="submit" value="Submit" class="send">
+            </form>
+          </div>
+        </section>
+
+          <!-- <div>
+            <h5>Created with love by ©   Andrii Gegliuk</h5>
+          </div> -->
+
+
+<!-- Script Section -->
+
+<!-- Animation -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- Typed JS -->
+<script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+
+<!-- Pure JS -->
+<script src="../static/script.js"></script>
+
+</body>
