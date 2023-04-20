@@ -16,6 +16,3 @@ This repository contains the source code for my personal portfolio website, whic
 
 **Flask**: I chose Flask, a lightweight Python web framework, to develop the back-end of my website. This allows me to serve my projects and easily integrate any data analysis or machine learning components in the future.
 
-**Python**: For data analysis and visualization, I primarily use Python due to its extensive ecosystem of libraries and tools, which streamline the entire data science pipeline.
-
-**Git and GitHub**: I use Git for version control, allowing me to track changes in my code, collaborate with others, and easily revert to previous versions if necessary. GitHub serves as the remote repository for my code and the platform where I host my portfolio website using GitHub Pages.
