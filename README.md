@@ -10,7 +10,7 @@
 
 This repository contains the source code for my personal portfolio website, which showcases my diverse skillset, passion for problem-solving, and deep understanding of data-driven decision-making. Feel free to explore the projects and get a glimpse of my expertise in programming, data analysis, and visualization.
 
-<h1 align="center">Technologies Used!</h1>
+<h1 align="center">Technologies Used</h1>
 
 
 **HTML, CSS, and JavaScript**: I used HTML, CSS, and JavaScript to create a responsive and visually appealing front end for my portfolio website. This ensures a seamless user experience across various devices and screen sizes.
