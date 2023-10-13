@@ -6,7 +6,7 @@
   </a>
 </p>
  
-🔗 [You can visit my website through this link](https://andriig.pythonanywhere.com/index.html)
+🔗 [Visit my website](https://andriig.pythonanywhere.com/index.html)
 
 This repository contains the source code for my personal portfolio website, which showcases my diverse skillset, passion for problem-solving, and deep understanding of data-driven decision-making. Feel free to explore the projects and get a glimpse of my expertise in programming, data analysis, and visualization.
 
