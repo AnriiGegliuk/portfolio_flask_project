@@ -17,3 +17,5 @@ This repository contains the source code for my personal portfolio website, whic
 
 **Flask**: I chose Flask, to develop the back end of my website. This allows me to serve my projects and easily integrate any data analysis or machine learning components in the future and collect data from inquiries.
 
+**Django**: Dijango version of this website is under development
+
