@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to my Data Science Portfolio web site Repo!</h1>
+<h1 align="center">Welcome to my Data Science Portfolio web site Repo</h1>
 
 <p align="center">
   <a href="https://skillicons.dev">
